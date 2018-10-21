@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/my/my",
+    "pages/over/over"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "待办",
+        "iconPath": "images/msg1.png",
+        "selectedIconPath": "images/msg2.png"
+      },
+      {
+        "pagePath": "pages/over/over",
+        "text": "完成",
+        "iconPath": "images/fand1.png",
+        "selectedIconPath": "images/fand2.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "images/my1.png",
+        "selectedIconPath": "images/my2.png"
+      }
+    ],
+    "color": "#c3c3c3",
+    "backgroundColor": "#fff",
+    "selectedColor": "#000"
+  }
+}

@@ -1,0 +1,13 @@
+<!--miniprogram/pages/index.wxml-->
+<view class='head'>
+  <input value='{{value}}'  class='text' placeholder="请输入名字" bindinput="fninput"></input>
+  <text catchtap='f0' class='but'>添加代办</text>
+</view>
+<view wx:if="{{todo.length>0}}"  class='content'>
+  <item finished='{{item.finished}}' wx:for="{{todo}}" wx:key="index" content="{{item.content}}" bind:reomeView="reomeView" bind:reomeTrue="reomeTrue" action="" data-index="{{index}}"></item>
+</view>
+<view class='qx' wx:if="{{todo.length>0}}">
+  <text catchtap='fq'>全选</text>
+  <text>完成</text>
+  <text catchtap='fr'>删除</text>
+</view>

@@ -1,0 +1,7 @@
+<!--components/item/item.wxml-->
+<view  class="inner">
+   <text catchtap='f1'  class=" yuan {{finished ? 'green':''}}">√</text>
+  {{content}}
+  <text catchtap='f0' class='yuan1'>×</text>
+</view>
+<slot></slot>
